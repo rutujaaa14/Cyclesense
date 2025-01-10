@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CycleSence - Period Predictor</title>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/e2/89/b6/e289b6162fea85dc1c642bdb62d5b065.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script> window.chtlConfig = { chatbotId: "1891779458" } </script>
+    <script async data-id="1891779458" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+  </head>
+  <body>
+    <div id="nav">
+      <a href="../index.html"></a>
+      <a href="./assets/logo.jpg.jpeg"> 
+      <img 
+        src="./assets/Cyclesenselogo.png"
+      /></a>
+      <h4><a href="http://localhost:3000/"> Cycle Tracking</a></h4>
+      <h4><a href="./html/Symptoms.html"> Symptoms Cognition</a></h4>
+      <h4><a href="./html/location.html"> Nearby Gynecologists</a></h4>
+      <h4><a href="./html/Lifestyle.html"> Lifestyle Management</a></h4>
+      <h4><a href="./html/About Us.html"> About Us</a></h4>
+
+      <button class="btnn"><a href="html/signup.html">Sign Up</a></button>
+      <button class="btnn"><a href="html/login.html">Login</a></button>
+    </div>
+    <div id="cursor"></div>
+    <!-- <div id="cursor-blur"></div> -->
+    <video 
+      autoplay
+      loop
+      muted
+      src="./assets/bg.mp4"
+      type="video/mp4"
+    ></video>
+    <div id="main">
+      <div id="page1">
+        <!-- <h1>EAT. DRINK. EXERCISE.</h1> -->
+        <h2>WELCOME TO CYCLESENSE</h2>
+        <p>
+          where knowledge meets empowerment in menstrual health. Track your cycle and embrace each phase with confidence and clarity.
+            <!-- Irregular menstrual cycles refer to a pattern of menstruation that deviates from the typical 28-day cycle.
+            It is is characterized by variations in the length of your menstrual cycles or changes in the flow and duration of your periods -->
+        </p>
+        <div id="arrow">
+          <a href="#page2">
+          <i class="ri-arrow-down-line"></i>
+          </a>
+        </div>
+      </div>
+      <div id="page2">
+        <div id="scroller">
+          <div id="scroller-in">
+            <h4>Cycle Tracking</h4>
+            <h4>Symptoms Cognition</h4>
+            <h4>Nearby Gynecologists</h4>
+            <h4>Lifestyle Management</h4>
+          </div>
+          <div id="scroller-in">
+            <h4>Cycle Tracking</h4>
+            <h4>Symptoms Cognition</h4>
+            <h4>Nearby Gynecologists</h4>
+            <h4>Lifestyle Management</h4>
+          </div>
+        </div>
+        <div id="about-us">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.fZsRav2tRK39T2nap41iDAHaE8&pid=Api&P=0&h=180"
+          />
+          <div id="about-us-in">
+            <h3>ABOUT US</h3>
+            <p>
+                Cyclesense is a groundbreaking menstrual cycle tracking application designed with a singular mission: to empower women with valuable insights into their reproductive health. Our goal is to provide accurate cycle predictions, robust symptom tracking, and a wealth of educational resources, all aimed at helping you take charge of your menstrual cycle.
+            </p>
+          </div>
+          <img
+            src="https://tse1.explicit.bing.net/th?id=OIP.u6ca_9RKlerMqTVhPB1cYgHaD4&pid=Api&P=0&h=180"
+          />
+        </div>
+        <div id="cards-container">
+          <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-white.svg" alt="" >
+          <div class="card" id="card1"><div class="overlay">
+              <h4>FOOD <br>TO AVOID</h4>
+              <br>
+              <p>
+                Avoiding certain foods during menstruation is important because it can help alleviate common discomforts and symptoms associated with the menstrual cycle. 
+              </p>
+              <br>
+              <!-- <p>
+                "Toptracer Range technology offers a fun,&nbsp;engaging,
+                tech-driven experience that appeals to seasoned players, range
+                rivals, friends, family members, and even first-time golfers."
+              </p> -->
+              <div id="arrow-1">
+                <i class="ri-arrow-right-line"><a style="color: #ff517d;" href="./html/diet2.html">.</a></i>
+              </div>
+            </div>  
+          </div>
+          <div class="card" id="card2">
+            <div class="overlay">
+              <div id="arrow-2">
+                <i class="ri-arrow-right-line"><a style="color: #ff517d;" href="./html/blood.html">.</a></i>
+              </div>
+              <h4>COLOURS <br>OF BLOOD <br></h4>
+              <br>
+              <!-- <p>Adventure awaits you!</p>
+              <br> -->
+              <p>
+                It's important to remember that the shade and consistency of menstrual blood can vary, and these variations are generally normal. This guide will help you understand the different colors you may encounter during your menstrual cycle and what they might indicate about your health.
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card3">
+            <div class="overlay">
+              <div id="arrow-3">
+                <i class="ri-arrow-right-line"><a style="color: #ff517d;" href="./html/sleep.html">.</a></i>
+              </div>
+              <h4>SLEEP<br>HYGIENE</h4>
+              <br>
+              <p>
+                Proper sleep hygiene is essential for overall health and well-being. It plays a vital role in allowing the body to restore and heal, aiding in the repair of tissues and the consolidation of memories.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="green-div">
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="">
+            <h4>SIGN UP FOR CYCLESENSE AND 
+                <br>ENHANCE YOUR OVERALL<br> WELL-BEINGS</h4>
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="">
+        </div>
+      </div>
+      <div id="page3">
+        <p>At Cyclesense, we believe that informed choices lead to better health outcomes. We've developed an intuitive and user-friendly interface coupled with advanced predictive algorithms to simplify the process of menstrual cycle tracking. Our app is designed to be a convenient and insightful tool that integrates seamlessly into your daily life.</p>
+        <img id="colon1" src="./assets/colon1.svg" alt="">
+        <img id="colon2" src="./assets/colon2.svg" alt="">
+      </div>
+      <div id="page4">
+        <h1>WHAT ARE YOU WAITING FOR?</h1>
+        <div class="elem">
+          <h2>ACCURATE PREDICTION</h2>
+          <img src="./assets/ap.png" alt="">
+        </div>
+        <div class="elem">
+          <h2>NEARBY GYNECOLOGISTS</h2>
+          <img src="./assets/ng.webp.crdownload" alt="">
+        </div>
+        <div class="elem">
+          <h2>SYMPTOMS COGNITION</h2>
+          <img src="./assets/sm.jpg" alt="">
+        </div>
+        
+      </div>
+      
+  
+  <footer>
+    <div class="footer">
+      <img
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-footer.svg"
+          alt=""
+        />
+        <div id="f1">
+          <a href="index.html">
+          <img
+            src="./assets/Cyclesenselogo.png"
+            alt=""
+          /></a>
+        </div>
+        <div id="f2">
+          <h3><a href="http://localhost:3000/"> Cycle Tracking</a></h3>
+          <h3><a href="./html/location.html">Nearby Gynecologists</a></h3>
+          <h3><a href="./html/Symptoms.html">Symptoms Cognition</a></h3>
+        </div>
+        <div id="f3">
+          <h3><a href="./html/diet.html">Diet </a></h3>
+          <h3><a href="./html/sym.html">Exercise</a></h3>
+          <h3><a href="./html/About Us.html">Contact us</a></h3>
+          <h4><a href="cyclesense@gmail.com">cyclesense@gmail.com</a></h4>
+          <!-- <h4><a href="cyclesense@gmail.com">cyclesense@gmail.com</a></h4> -->
+        </div>
+      </div>
+
+      <div class="footer2">
+        <p>Copyright © 2023 Adventure Leisure Ltd. All rights reserved. / </p>
+        
+          <a href="./html/terms&condition.html"> Privacy Policy  </a>
+        /
+          <a href="./html/terms&condition.html"> Terms And Conditions  </a>
+        /
+          <a href="#"> Gender Pay Gap</a>
+<!--         
+        <a href="#">                                                                                Web Design London</a> -->
+      </div>  
+    
+  </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+    <script> window.chtlConfig = { chatbotId: "1891779458" } </script>
+    <script async data-id="1891779458" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+  </body>
+</html>
